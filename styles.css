@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+  font-family: Roboto, Arial, Verdana, sans-serif;
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 75%;
+  border-radius: 10px;
+  max-width: 600px;
+  min-width: 200px;
+  margin-left: auto;
+  margin-right: auto;  background-color:#0012C2;
+  padding: 20px;
+}
+
+h1 {
+  margin: 0px;
+  text-align: center;
+}
+
+p {
+  margin-bottom: 5px;
+}
+
+input {
+  all: unset;
+  height: 25px;
+  padding-left: 10px;
+}
+
+select {
+  all: unset;
+  padding-top: 4px;
+  height: 20px;
+  padding-left: 10px;
+}
+
+.select-field {
+  vertical-align: middle;
+  border: 1px solid white;
+  border-radius: 5px;
+  width: 50%;
+  margin-bottom: 15px;
+}
+
+.total {
+  font-weight: bold;
+  font-size: 18px;
+  color: #5BD3FF;
+}
+
+.reset {
+  cursor: pointer;
+  margin-top: 15px;
+  font-size: 16px;
+  height: 30px;
+  width: 30%;
+  border-radius: 10px;
+  border: none;
+  background-color: #FFF7DF;
+  font-family: inherit;
+}
+
+.reset:hover {
+  background-color: #E4FF70;
+}
